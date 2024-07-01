@@ -20,6 +20,14 @@
 		B49E7C0E2C32408500F2F08E /* StarSEexamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E7C0D2C32408500F2F08E /* StarSEexamUITestsLaunchTests.swift */; };
 		B4CB76A22C324D26005041FD /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CB76A12C324D26005041FD /* Intro.storyboard */; };
 		B4CB76A42C3250DF005041FD /* UIColor++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CB76A32C3250DF005041FD /* UIColor++.swift */; };
+		B4CB76AA2C32537E005041FD /* UITable++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CB76A92C32537E005041FD /* UITable++.swift */; };
+		B4CB76AC2C3253A4005041FD /* UIStoryboard++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CB76AB2C3253A4005041FD /* UIStoryboard++.swift */; };
+		B4CB76B02C3260F3005041FD /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CB76AE2C3260F2005041FD /* Slide.swift */; };
+		B4CB76B12C3260F3005041FD /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4CB76AF2C3260F2005041FD /* Slide.xib */; };
+		B4CB76B32C32633E005041FD /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CB76B22C32633E005041FD /* IntroVC.swift */; };
+		B4CB76B52C326B2D005041FD /* UIWindow++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CB76B42C326B2D005041FD /* UIWindow++.swift */; };
+		B4CB76B72C326BEC005041FD /* AppCoordinator++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CB76B62C326BEC005041FD /* AppCoordinator++.swift */; };
+		B4CB76B92C327202005041FD /* UIView++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CB76B82C327202005041FD /* UIView++.swift */; };
 		BB292050965A0866FE45E57F /* Pods_StarSEexam_StarSEexamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00701822AFA44278491983E0 /* Pods_StarSEexam_StarSEexamUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +72,14 @@
 		B49E7C0D2C32408500F2F08E /* StarSEexamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarSEexamUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B4CB76A12C324D26005041FD /* Intro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intro.storyboard; sourceTree = "<group>"; };
 		B4CB76A32C3250DF005041FD /* UIColor++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor++.swift"; sourceTree = "<group>"; };
+		B4CB76A92C32537E005041FD /* UITable++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITable++.swift"; sourceTree = "<group>"; };
+		B4CB76AB2C3253A4005041FD /* UIStoryboard++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard++.swift"; sourceTree = "<group>"; };
+		B4CB76AE2C3260F2005041FD /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		B4CB76AF2C3260F2005041FD /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		B4CB76B22C32633E005041FD /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		B4CB76B42C326B2D005041FD /* UIWindow++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow++.swift"; sourceTree = "<group>"; };
+		B4CB76B62C326BEC005041FD /* AppCoordinator++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppCoordinator++.swift"; sourceTree = "<group>"; };
+		B4CB76B82C327202005041FD /* UIView++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView++.swift"; sourceTree = "<group>"; };
 		ED30E4E791A5509A0CAC98D7 /* Pods-StarSEexam-StarSEexamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarSEexam-StarSEexamUITests.release.xcconfig"; path = "Target Support Files/Pods-StarSEexam-StarSEexamUITests/Pods-StarSEexam-StarSEexamUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				B4CB76A62C3250F7005041FD /* AppDelegate */,
+				B4CB76AD2C3260F2005041FD /* NestedView */,
 				B4CB76A52C3250EB005041FD /* Extension */,
 				B4CB76A72C325101005041FD /* VC */,
 				B4CB76A82C32510D005041FD /* Storyboard */,
@@ -175,6 +192,11 @@
 			isa = PBXGroup;
 			children = (
 				B4CB76A32C3250DF005041FD /* UIColor++.swift */,
+				B4CB76B82C327202005041FD /* UIView++.swift */,
+				B4CB76B42C326B2D005041FD /* UIWindow++.swift */,
+				B4CB76B62C326BEC005041FD /* AppCoordinator++.swift */,
+				B4CB76A92C32537E005041FD /* UITable++.swift */,
+				B4CB76AB2C3253A4005041FD /* UIStoryboard++.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -192,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				B49E7BEE2C32408200F2F08E /* ViewController.swift */,
+				B4CB76B22C32633E005041FD /* IntroVC.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -203,6 +226,15 @@
 				B4CB76A12C324D26005041FD /* Intro.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B4CB76AD2C3260F2005041FD /* NestedView */ = {
+			isa = PBXGroup;
+			children = (
+				B4CB76AE2C3260F2005041FD /* Slide.swift */,
+				B4CB76AF2C3260F2005041FD /* Slide.xib */,
+			);
+			path = NestedView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4CB76B12C3260F3005041FD /* Slide.xib in Resources */,
 				B49E7BF72C32408500F2F08E /* LaunchScreen.storyboard in Resources */,
 				B49E7BF42C32408500F2F08E /* Assets.xcassets in Resources */,
 				B49E7BF22C32408200F2F08E /* Main.storyboard in Resources */,
@@ -411,8 +444,15 @@
 			files = (
 				B49E7BEF2C32408200F2F08E /* ViewController.swift in Sources */,
 				B4CB76A42C3250DF005041FD /* UIColor++.swift in Sources */,
+				B4CB76B52C326B2D005041FD /* UIWindow++.swift in Sources */,
+				B4CB76AC2C3253A4005041FD /* UIStoryboard++.swift in Sources */,
+				B4CB76B72C326BEC005041FD /* AppCoordinator++.swift in Sources */,
 				B49E7BEB2C32408200F2F08E /* AppDelegate.swift in Sources */,
+				B4CB76B02C3260F3005041FD /* Slide.swift in Sources */,
+				B4CB76B32C32633E005041FD /* IntroVC.swift in Sources */,
 				B49E7BED2C32408200F2F08E /* SceneDelegate.swift in Sources */,
+				B4CB76AA2C32537E005041FD /* UITable++.swift in Sources */,
+				B4CB76B92C327202005041FD /* UIView++.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,7 +636,7 @@
 				INFOPLIST_FILE = StarSEexam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Intro;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -625,7 +665,7 @@
 				INFOPLIST_FILE = StarSEexam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Intro;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
