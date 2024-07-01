@@ -1,6 +1,0 @@
-framework module Pods_StarSEexamTests {
-  umbrella header "Pods-StarSEexamTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
